@@ -1,0 +1,1492 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <Ontology>
+        <imports rdf:resource="http://www.w3.org/ns/sosa/"/>
+        <imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <imports rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <imports rdf:resource="http://www.w3.org/ns/ssn/"/>
+    </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#generates -->
+
+    <ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#generates">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Mon_Device_1"/>
+        <rdfs:range rdf:resource="http://www.example.org/ecmo#Alert_Info_1"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#occurs -->
+
+    <ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#occurs">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#ECMO_Mon_Area"/>
+        <rdfs:range rdf:resource="http://www.example.org/ecmo#Trig_Act_1"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#uesdIn -->
+
+    <ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#uesdIn">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#E_Type"/>
+        <rdfs:range rdf:resource="http://www.example.org/ecmo#E_Usage_Stat"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#assignedTo -->
+
+    <ObjectProperty rdf:about="http://www.example.org/ecmo#assignedTo">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Pers_Mgmt_1"/>
+        <rdfs:range rdf:resource="http://www.example.org/ecmo#ECMO_Mon_Area"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#associatedWith -->
+
+    <ObjectProperty rdf:about="http://www.example.org/ecmo#associatedWith">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Alert_Info_1"/>
+        <rdfs:range rdf:resource="http://www.example.org/ecmo#E_Type"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#basedOn -->
+
+    <ObjectProperty rdf:about="http://www.example.org/ecmo#basedOn">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#E_Usage_Stat"/>
+        <rdfs:range rdf:resource="http://www.example.org/ecmo#Mon_Param_1"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#belongsTo -->
+
+    <ObjectProperty rdf:about="http://www.example.org/ecmo#belongsTo">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#E_Usage_Stat"/>
+        <rdfs:range rdf:resource="http://www.example.org/ecmo#ECMO_Mon_Area"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#executes -->
+
+    <ObjectProperty rdf:about="http://www.example.org/ecmo#executes">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Pers_Mgmt_1"/>
+        <rdfs:range rdf:resource="http://www.example.org/ecmo#Trig_Act_1"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#installedIn -->
+
+    <ObjectProperty rdf:about="http://www.example.org/ecmo#installedIn">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Mon_Device_1"/>
+        <rdfs:range rdf:resource="http://www.example.org/ecmo#ECMO_Mon_Area"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#measures -->
+
+    <ObjectProperty rdf:about="http://www.example.org/ecmo#measures">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Mon_Device_1"/>
+        <rdfs:range rdf:resource="http://www.example.org/ecmo#Mon_Param_1"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#monitors -->
+
+    <ObjectProperty rdf:about="http://www.example.org/ecmo#monitors">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Mon_Device_1"/>
+        <rdfs:range rdf:resource="http://www.example.org/ecmo#E_Type"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#occursDuring -->
+
+    <ObjectProperty rdf:about="http://www.example.org/ecmo#occursDuring">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Alert_Info_1"/>
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#E_Usage_Stat"/>
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Trig_Act_1"/>
+        <rdfs:range rdf:resource="http://www.example.org/ecmo#T_Intvl"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#represents -->
+
+    <ObjectProperty rdf:about="http://www.example.org/ecmo#represents">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Mon_Param_1"/>
+        <rdfs:range rdf:resource="http://www.example.org/ecmo#E_Type"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#respondsTo -->
+
+    <ObjectProperty rdf:about="http://www.example.org/ecmo#respondsTo">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Pers_Mgmt_1"/>
+        <rdfs:range rdf:resource="http://www.example.org/ecmo#Alert_Info_1"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#triggers -->
+
+    <ObjectProperty rdf:about="http://www.example.org/ecmo#triggers">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Alert_Info_1"/>
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#E_Usage_Stat"/>
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Mon_Param_1"/>
+        <rdfs:range rdf:resource="http://www.example.org/ecmo#Alert_Info_1"/>
+        <rdfs:range rdf:resource="http://www.example.org/ecmo#Trig_Act_1"/>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.example.org/ecmo#AreaConsumptionDistribution -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#AreaConsumptionDistribution">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#E_Usage_Stat"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#AverageConsumption -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#AverageConsumption">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#E_Usage_Stat"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#EnergyCategory -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#EnergyCategory">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#E_Type"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#EnergyCostValue -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#EnergyCostValue">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#E_Type"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#EnergyName -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#EnergyName">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#E_Type"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#EnergyReserve -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#EnergyReserve">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#E_Type"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#EnergyUnite -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#EnergyUnite">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#E_Type"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#LowestConsumption -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#LowestConsumption">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#E_Usage_Stat"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#PeakConsumption -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#PeakConsumption">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#E_Usage_Stat"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#TimeRange -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#TimeRange">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#E_Usage_Stat"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#TotalConsumption -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#TotalConsumption">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#E_Usage_Stat"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#UsagePurpose -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#UsagePurpose">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#E_Type"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#alertDescription -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#alertDescription">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Alert_Info_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#alertLevel -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#alertLevel">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Alert_Info_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#alertTime -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#alertTime">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Alert_Info_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#alertType -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#alertType">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Alert_Info_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#alertValue -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#alertValue">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Alert_Info_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#areaName -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#areaName">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#ECMO_Mon_Area"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#areaType -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#areaType">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#ECMO_Mon_Area"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#assignedRegion -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#assignedRegion">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Pers_Mgmt_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#availabilityStatus -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#availabilityStatus">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Pers_Mgmt_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#currentValue -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#currentValue">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Mon_Param_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#deviceID -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#deviceID">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Mon_Device_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#deviceName -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#deviceName">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Mon_Device_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#deviceStatus -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#deviceStatus">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Mon_Device_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#deviceType -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#deviceType">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Mon_Device_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#endTime -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#endTime">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#T_Intvl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#installationLocation -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#installationLocation">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Mon_Device_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#monitoringTime -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#monitoringTime">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Mon_Param_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#operationDate -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#operationDate">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Trig_Act_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#operationType -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#operationType">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Trig_Act_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#parameterName -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#parameterName">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Mon_Param_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#personnelID -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#personnelID">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Pers_Mgmt_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#personnelType -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#personnelType">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Pers_Mgmt_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#priorityLevel -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#priorityLevel">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Trig_Act_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#schedule -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#schedule">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Pers_Mgmt_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#startTime -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#startTime">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#T_Intvl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#status -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#status">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Trig_Act_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#taskAssigned -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#taskAssigned">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Pers_Mgmt_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#thresholdType -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#thresholdType">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Mon_Param_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#timeUnit -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#timeUnit">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#T_Intvl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/ecmo#unit -->
+
+    <DatatypeProperty rdf:about="http://www.example.org/ecmo#unit">
+        <rdfs:domain rdf:resource="http://www.example.org/ecmo#Mon_Param_1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Hall_Effect_Voltage_Sensor -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Hall_Effect_Voltage_Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Mon_Device_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Hangzhi_Hall-Alternative_Current_Sensor -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Hangzhi_Hall-Alternative_Current_Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Mon_Device_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Rail_WaitHall -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Rail_WaitHall">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#RailwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Water_Flow_Sensor -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Water_Flow_Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Mon_Device_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Act_Elec_Consumption -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Act_Elec_Consumption">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Trig_Act_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Act_Elec_ConsumptionMonitor -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Act_Elec_ConsumptionMonitor">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Act_Elec_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Act_Elec_EmergencyMaint -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Act_Elec_EmergencyMaint">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Act_Elec_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Act_Elec_HighConsumptionCorrection -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Act_Elec_HighConsumptionCorrection">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Act_Elec_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Act_Elec_LowConsumptionInspection -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Act_Elec_LowConsumptionInspection">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Act_Elec_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Act_Elec_Optimization -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Act_Elec_Optimization">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Act_Elec_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Act_Gas_Consumption -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Act_Gas_Consumption">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Trig_Act_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Act_Gas_ConsumptionMonitor -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Act_Gas_ConsumptionMonitor">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Act_Gas_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Act_Gas_EmergencyMaint -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Act_Gas_EmergencyMaint">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Act_Gas_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Act_Gas_HighConsumptionCorrection -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Act_Gas_HighConsumptionCorrection">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Act_Gas_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Act_Gas_LeakDetectandRepair -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Act_Gas_LeakDetectandRepair">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Act_Gas_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Act_Gas_Optimization -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Act_Gas_Optimization">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Act_Gas_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Act_Water_Consumption -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Act_Water_Consumption">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Trig_Act_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Act_Water_ConsumptionMonitor -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Act_Water_ConsumptionMonitor">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Act_Water_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Act_Water_EmergencyMaint -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Act_Water_EmergencyMaint">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Act_Water_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Act_Water_HighConsumptionCorrection -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Act_Water_HighConsumptionCorrection">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Act_Water_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Act_Water_LeakDetectandRepair -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Act_Water_LeakDetectandRepair">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Act_Water_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Act_Water_Optimization -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Act_Water_Optimization">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Act_Water_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Alert_Elec_Abnormal -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Alert_Elec_Abnormal">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Alert_Elec_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Alert_Elec_Consumption -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Alert_Elec_Consumption">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Alert_Info_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Alert_Elec_Fluctuation -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Alert_Elec_Fluctuation">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Alert_Elec_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Alert_Elec_PowerFactor -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Alert_Elec_PowerFactor">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Alert_Elec_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Alert_Gas_Abnormal -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Alert_Gas_Abnormal">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Alert_Gas_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Alert_Gas_Consumption -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Alert_Gas_Consumption">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Alert_Info_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Alert_Gas_Fluctuation -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Alert_Gas_Fluctuation">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Alert_Gas_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Alert_Gas_PipelineTemp -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Alert_Gas_PipelineTemp">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Alert_Gas_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Alert_Info_1 -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Alert_Info_1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.example.org/ecmo#triggers"/>
+                <someValuesFrom rdf:resource="http://www.example.org/ecmo#Trig_Act_1"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Alert_Water_Abnormal -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Alert_Water_Abnormal">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Alert_Water_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Alert_Water_Consumption -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Alert_Water_Consumption">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Alert_Info_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Alert_Water_FlowRate -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Alert_Water_FlowRate">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Alert_Water_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Alert_Water_Fluctuation -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Alert_Water_Fluctuation">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Alert_Water_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Alert_Water_Pressure -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Alert_Water_Pressure">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Alert_Water_Consumption"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#ECMO_Mon_Area -->
+
+    <Class rdf:about="http://www.example.org/ecmo#ECMO_Mon_Area">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#E_Type -->
+
+    <Class rdf:about="http://www.example.org/ecmo#E_Type">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#E_Usage_Stat -->
+
+    <Class rdf:about="http://www.example.org/ecmo#E_Usage_Stat">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Elec -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Elec">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#E_Type"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Elec_AirConditioning -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Elec_AirConditioning">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Elec"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Elec_Domestic -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Elec_Domestic">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Elec"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Elec_Lighting -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Elec_Lighting">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Elec"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Elec_PowerEquipment -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Elec_PowerEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Elec"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Elec_Special -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Elec_Special">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Elec"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#In_TransferHall -->
+
+    <Class rdf:about="http://www.example.org/ecmo#In_TransferHall">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#IndoorArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#IndoorArea -->
+
+    <Class rdf:about="http://www.example.org/ecmo#IndoorArea">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#ECMO_Mon_Area"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Intvl_EventTrig -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Intvl_EventTrig">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#T_Intvl"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Intvl_PeakTime -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Intvl_PeakTime">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#T_Intvl"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Intvl_RealTime -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Intvl_RealTime">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#T_Intvl"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Intvl_Scheduled -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Intvl_Scheduled">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#T_Intvl"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Mon_Device_1 -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Mon_Device_1">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Mon_Param_1 -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Mon_Param_1">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#NGas -->
+
+    <Class rdf:about="http://www.example.org/ecmo#NGas">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#E_Type"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#NGas_AirConditioning -->
+
+    <Class rdf:about="http://www.example.org/ecmo#NGas_AirConditioning">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#NGas"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#NGas_Domestic -->
+
+    <Class rdf:about="http://www.example.org/ecmo#NGas_Domestic">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#NGas"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#NGas_Emergency -->
+
+    <Class rdf:about="http://www.example.org/ecmo#NGas_Emergency">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#NGas"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#NGas_PowerEquipment -->
+
+    <Class rdf:about="http://www.example.org/ecmo#NGas_PowerEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#NGas"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#NGas_Special -->
+
+    <Class rdf:about="http://www.example.org/ecmo#NGas_Special">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#NGas"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Out_Square -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Out_Square">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#OutdoorArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#OutdoorArea -->
+
+    <Class rdf:about="http://www.example.org/ecmo#OutdoorArea">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#ECMO_Mon_Area"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Param_ElectricCurrent -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Param_ElectricCurrent">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Param_Electrical"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Param_ElectricEnergy -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Param_ElectricEnergy">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Param_Electrical"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Param_Electrical -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Param_Electrical">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Mon_Param_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Param_Gas -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Param_Gas">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Mon_Param_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Param_GasConcentration -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Param_GasConcentration">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Param_Gas"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Param_GasFlowRate -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Param_GasFlowRate">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Param_Gas"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Param_GasPressure -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Param_GasPressure">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Param_Gas"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Param_PipelineTemp -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Param_PipelineTemp">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Param_Temperature"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Param_Power -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Param_Power">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Param_Electrical"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Param_PowerFactor -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Param_PowerFactor">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Param_Electrical"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Param_Temperature -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Param_Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Mon_Param_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Param_Voltage -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Param_Voltage">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Param_Electrical"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Param_Water -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Param_Water">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Mon_Param_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Param_WaterConsumption -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Param_WaterConsumption">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Param_Water"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Param_WaterFlowRate -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Param_WaterFlowRate">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Param_Water"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Param_WaterPressure -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Param_WaterPressure">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Param_Water"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Pers_Mgmt_1 -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Pers_Mgmt_1">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Actuation"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Persn_Elec -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Persn_Elec">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Pers_Mgmt_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Persn_EmergResp -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Persn_EmergResp">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Pers_Mgmt_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Persn_NGas -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Persn_NGas">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Pers_Mgmt_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Persn_Water -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Persn_Water">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Pers_Mgmt_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Rail_ConferenceRoom -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Rail_ConferenceRoom">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#RailwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Rail_EquipRoom -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Rail_EquipRoom">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#RailwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Rail_Office -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Rail_Office">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#RailwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Rail_Platform -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Rail_Platform">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#RailwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Rail_Restroom -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Rail_Restroom">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#RailwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Rail_TicketHall -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Rail_TicketHall">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#RailwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#RailwayArea -->
+
+    <Class rdf:about="http://www.example.org/ecmo#RailwayArea">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#ECMO_Mon_Area"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Sensor_ElecCurrentInductor -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Sensor_ElecCurrentInductor">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Mon_Device_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Sensor_GasFlowInductor -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Sensor_GasFlowInductor">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Mon_Device_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Sensor_TempPT100 -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Sensor_TempPT100">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Mon_Device_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Sensor_WirelessAMmeter -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Sensor_WirelessAMmeter">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Mon_Device_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Spec_DataAnalyst -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Spec_DataAnalyst">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Pers_Mgmt_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Spec_EnergyOptimization -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Spec_EnergyOptimization">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Pers_Mgmt_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Stat_Annual -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Stat_Annual">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#E_Usage_Stat"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Stat_Daily -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Stat_Daily">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#E_Usage_Stat"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Stat_Monthly -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Stat_Monthly">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#E_Usage_Stat"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Sub_ExitEntrance -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Sub_ExitEntrance">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#SubwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Sub_Platform -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Sub_Platform">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#SubwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Sub_StationHall -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Sub_StationHall">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#SubwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Sub_TransferTunnel -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Sub_TransferTunnel">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#SubwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#SubwayArea -->
+
+    <Class rdf:about="http://www.example.org/ecmo#SubwayArea">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#ECMO_Mon_Area"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#T_Intvl -->
+
+    <Class rdf:about="http://www.example.org/ecmo#T_Intvl">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Trig_Act_1 -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Trig_Act_1">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Actuation"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Water -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Water">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#E_Type"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Water_AirConditioning -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Water_AirConditioning">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Water"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Water_Cleaning -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Water_Cleaning">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Water"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Water_Domestic -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Water_Domestic">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Water"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Water_Firefighting -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Water_Firefighting">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Water"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/ecmo#Water_Special -->
+
+    <Class rdf:about="http://www.example.org/ecmo#Water_Special">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/ecmo#Water"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Actuation -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Actuation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/ObservableProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/ObservableProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/System -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/System">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+

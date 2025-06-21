@@ -1,0 +1,1227 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <Ontology>
+        <imports rdf:resource="http://www.w3.org/ns/sosa/"/>
+        <imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <imports rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <imports rdf:resource="http://www.w3.org/ns/ssn/"/>
+    </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#occurs -->
+
+    <ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#occurs">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#EvMO_Mon_Area"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Sec_Scn"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Trig_Act_5"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#assignedTo -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#assignedTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Pers_Mgmt_5"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/EvMO#EvMO_Mon_Area"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#associatedWith -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#associatedWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Info_5"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Sec_Scn"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#executes -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#executes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Pers_Mgmt_5"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Trig_Act_5"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#generates -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#generates">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Info_5"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#installedIn -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#installedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/EvMO#EvMO_Mon_Area"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#measures -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#measures">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Param_5"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#occursDuring -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#occursDuring">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Info_5"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Sec_Scn"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Trig_Act_5"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/EvMO#T_Intvl"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#respondsTo -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#respondsTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Pers_Mgmt_5"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Trig_Act_5"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Info_5"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Sec_Scn"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#triggers -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#triggers">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Info_5"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Param_5"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Info_5"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Sec_Scn"/>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#actualCount -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#actualCount">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Pers_Mgmt_5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#alertDescription -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#alertDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Info_5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#alertLevel -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#alertLevel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Info_5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#alertTime -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#alertTime">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Info_5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#alertType -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#alertType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Info_5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#alertValue -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#alertValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Info_5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#areaName -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#areaName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#EvMO_Mon_Area"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#areaType -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#areaType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#EvMO_Mon_Area"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#currentValue -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#currentValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Param_5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#deviceID -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#deviceID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#deviceName -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#deviceName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#deviceStatus -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#deviceStatus">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#deviceType -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#deviceType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#endTime -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#endTime">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#T_Intvl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#executionProgress -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#executionProgress">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Trig_Act_5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#executionStatus -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#executionStatus">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Sec_Scn"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#executionStep -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#executionStep">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Trig_Act_5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#groupName -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#groupName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Pers_Mgmt_5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#installationLocation -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#installationLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#monitoringTime -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#monitoringTime">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Param_5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#parameterName -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#parameterName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Param_5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#scenarioName -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#scenarioName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Sec_Scn"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#scenarioType -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#scenarioType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Sec_Scn"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#scheduledCount -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#scheduledCount">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Pers_Mgmt_5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#startTime -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#startTime">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#T_Intvl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#thresholdType -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#thresholdType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Param_5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#timeUnit -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#timeUnit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#T_Intvl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#unit -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/EvMO#unit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Param_5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Acoustic_Emission_Sensor -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Acoustic_Emission_Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Electronic_Sensor -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Electronic_Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#FlamePosition -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#FlamePosition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Param_Fire"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#FlameTemperature -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#FlameTemperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Param_Fire"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#HarmfulGasComposition -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#HarmfulGasComposition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Param_Fire"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Infrared_Temperature_Sensor -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Infrared_Temperature_Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Laser_Sensor -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Laser_Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Lithium_Chloride_Humidity_Sensor -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Lithium_Chloride_Humidity_Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Optical_Sensor -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Optical_Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Out_Square -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Out_Square">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#OutdoorArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Rail_ConferenceRoom -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Rail_ConferenceRoom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#RailwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Rail_EquipRoom -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Rail_EquipRoom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#RailwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Rail_Office -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Rail_Office">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#RailwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Rail_Platform -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Rail_Platform">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#RailwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Rail_Restroom -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Rail_Restroom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#RailwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#SmokeConcentration -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#SmokeConcentration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Param_Fire"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Thermistor_Sensor -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Thermistor_Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Thermocouple_Sensor -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Thermocouple_Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#WaterDepth -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#WaterDepth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Param_Flood"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#WaterFlowSpeed -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#WaterFlowSpeed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Param_Flood"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Act_Evacuation -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Act_Evacuation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Trig_Act_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Act_FireSuppression -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Act_FireSuppression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Trig_Act_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Act_NoiseReduction -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Act_NoiseReduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Trig_Act_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Act_PowerSwitch -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Act_PowerSwitch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Trig_Act_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Act_SecurityLockdown -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Act_SecurityLockdown">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Trig_Act_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Act_VentilationControl -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Act_VentilationControl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Trig_Act_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Act_VentilationExecution -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Act_VentilationExecution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Trig_Act_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Act_WaterDischarge -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Act_WaterDischarge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Trig_Act_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#AirQualityAlert -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#AirQualityAlert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Environmental"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#AirQualitySensor -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#AirQualitySensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Alert_Environmental -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Alert_Environmental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Info_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Alert_EquipmentFailure -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Alert_EquipmentFailure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Operational"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Alert_Fire -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Alert_Fire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Safety"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Alert_GasLeak -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Alert_GasLeak">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Safety"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Alert_Humidity -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Alert_Humidity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Environmental"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Alert_Info_5 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Alert_Info_5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/EvMO#triggers"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Trig_Act_5"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Alert_Noise -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Alert_Noise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Environmental"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Alert_Operational -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Alert_Operational">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Info_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Alert_PowerFailure -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Alert_PowerFailure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Operational"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Alert_Rainfall -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Alert_Rainfall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Environmental"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Alert_Safety -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Alert_Safety">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Info_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Alert_SmokeDetection -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Alert_SmokeDetection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Safety"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Alert_Temperature -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Alert_Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Environmental"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Alert_WindSpeed -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Alert_WindSpeed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Environmental"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#EvMO_Mon_Area -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#EvMO_Mon_Area">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#HarmfulGasDetector -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#HarmfulGasDetector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#In_TransferHall -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#In_TransferHall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#IndoorArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#IndoorArea -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#IndoorArea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#EvMO_Mon_Area"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#InfraredThermalImager -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#InfraredThermalImager">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Intvl_EventTrig -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Intvl_EventTrig">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#T_Intvl"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Intvl_PeakTime -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Intvl_PeakTime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#T_Intvl"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Intvl_RealTime -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Intvl_RealTime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#T_Intvl"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Intvl_Scheduled -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Intvl_Scheduled">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#T_Intvl"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/EvMO#measures"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Param_5"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Mon_Param_5 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Mon_Param_5">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/EvMO#triggers"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Info_5"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#NoiseSensor -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#NoiseSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#OutdoorArea -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#OutdoorArea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#EvMO_Mon_Area"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Param_AirQuality -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Param_AirQuality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Param_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Param_CO2 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Param_CO2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Param_AirQuality"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Param_Fire -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Param_Fire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Param_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Param_Flood -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Param_Flood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Param_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Param_Humidity -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Param_Humidity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Param_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Param_Noise -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Param_Noise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Param_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Param_O3 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Param_O3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Param_AirQuality"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Param_PM10 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Param_PM10">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Param_AirQuality"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Param_PM2.5 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Param_PM2.5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Param_AirQuality"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Param_Temperature -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Param_Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Param_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Pers_Mgmt_5 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Pers_Mgmt_5">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Actuation"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/EvMO#respondsTo"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Alert_Info_5"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Persn_AlertResponse -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Persn_AlertResponse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Pers_Mgmt_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Persn_EmergencyEvacuation -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Persn_EmergencyEvacuation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Pers_Mgmt_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Persn_EnvironmentalRiskAssessment -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Persn_EnvironmentalRiskAssessment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Pers_Mgmt_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Persn_MaintenanceResponse -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Persn_MaintenanceResponse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Pers_Mgmt_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Persn_StressMonitor -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Persn_StressMonitor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Pers_Mgmt_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Rail_TicketHall -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Rail_TicketHall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#RailwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Rail_WaitHall -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Rail_WaitHall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#RailwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#RailwayArea -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#RailwayArea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#EvMO_Mon_Area"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Scn_AirQualityAlert -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Scn_AirQualityAlert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Sec_Scn"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Scn_Evacuation -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Scn_Evacuation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Sec_Scn"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Scn_Fire -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Scn_Fire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Sec_Scn"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Scn_Flooding -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Scn_Flooding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Sec_Scn"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Scn_NoiseLevelAlert -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Scn_NoiseLevelAlert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Sec_Scn"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Scn_PowerFailure -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Scn_PowerFailure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Sec_Scn"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Scn_SmokeDetection -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Scn_SmokeDetection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Sec_Scn"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Scn_WindSpeedAlert -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Scn_WindSpeedAlert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Sec_Scn"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Sec_Scn -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Sec_Scn">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#SmokeDetector -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#SmokeDetector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Sub_Platform -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Sub_Platform">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#SubwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Sub_StationHall -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Sub_StationHall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#SubwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Sub_TransferTunnel -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Sub_TransferTunnel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#SubwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#SubwayArea -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#SubwayArea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#EvMO_Mon_Area"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#T_Intvl -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#T_Intvl">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#TemperatureandHumiditySensor -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#TemperatureandHumiditySensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Trig_Act_5 -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Trig_Act_5">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Actuation"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/EvMO#respondsTo"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Sec_Scn"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#UltrasonicFlowTransmitter -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#UltrasonicFlowTransmitter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#UltrasonicLiquidLevelMeter -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#UltrasonicLiquidLevelMeter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#Mon_Device_5"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/EvMO#Sub_Exit/Entrance -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/EvMO#Sub_Exit/Entrance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/EvMO#SubwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Actuation -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Actuation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/ObservableProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/ObservableProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/System -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/System">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+

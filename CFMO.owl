@@ -1,0 +1,1290 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <Ontology>
+        <imports rdf:resource="http://www.w3.org/ns/sosa/"/>
+        <imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <imports rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <imports rdf:resource="http://www.w3.org/ns/ssn/"/>
+    </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#triggers -->
+
+    <ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#triggers">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Alert_Info_2"/>
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Flow_Anal"/>
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Mon_Param_2"/>
+        <rdfs:range rdf:resource="http://www.example.org/cfmo#Alert_Info_2"/>
+        <rdfs:range rdf:resource="http://www.example.org/cfmo#Trig_Act_2"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#assignedTo -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#assignedTo">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Pers_Mgmt_2"/>
+        <rdfs:range rdf:resource="http://www.example.org/cfmo#CFMO_Mon_Area"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#basedOn -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#basedOn">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Flow_Anal"/>
+        <rdfs:range rdf:resource="http://www.example.org/cfmo#Mon_Param_2"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#executes -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#executes">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Pers_Mgmt_2"/>
+        <rdfs:range rdf:resource="http://www.example.org/cfmo#Trig_Act_2"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#generates -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#generates">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Mon_Device_2"/>
+        <rdfs:range rdf:resource="http://www.example.org/cfmo#Alert_Info_2"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#installedIn -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#installedIn">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Mon_Device_2"/>
+        <rdfs:range rdf:resource="http://www.example.org/cfmo#CFMO_Mon_Area"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#measures -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#measures">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Mon_Device_2"/>
+        <rdfs:range rdf:resource="http://www.example.org/cfmo#Mon_Param_2"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#occursDuring -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#occursDuring">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Alert_Info_2"/>
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Flow_Anal"/>
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Trig_Act_2"/>
+        <rdfs:range rdf:resource="http://www.example.org/cfmo#T_Intvl"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#respondsTo -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#respondsTo">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Pers_Mgmt_2"/>
+        <rdfs:range rdf:resource="http://www.example.org/cfmo#Alert_Info_2"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#utilizes -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#utilizes">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Flow_Anal"/>
+        <rdfs:range rdf:resource="http://www.example.org/cfmo#Mon_Device_2"/>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#alertDescription -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#alertDescription">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Alert_Info_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#alertLevel -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#alertLevel">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Alert_Info_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#alertTime -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#alertTime">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Alert_Info_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#alertType -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#alertType">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Alert_Info_2"/>
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Trig_Act_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#alertValue -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#alertValue">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Alert_Info_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#areaName -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#areaName">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#CFMO_Mon_Area"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#areaType -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#areaType">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#CFMO_Mon_Area"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#assignedRegion -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#assignedRegion">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Pers_Mgmt_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#availabilityStatus -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#availabilityStatus">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Pers_Mgmt_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#currentValue -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#currentValue">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Mon_Param_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#deviceID -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#deviceID">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Mon_Device_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#deviceName -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#deviceName">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Mon_Device_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#deviceStatus -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#deviceStatus">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Mon_Device_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#deviceType -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#deviceType">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Mon_Device_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#endTime -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#endTime">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#T_Intvl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#flowDescription -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#flowDescription">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Flow_Anal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#flowLevel -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#flowLevel">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Flow_Anal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#flowTime -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#flowTime">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Flow_Anal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#flowType -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#flowType">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Flow_Anal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#flowValue -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#flowValue">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Flow_Anal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#initiatedTime -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#initiatedTime">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Trig_Act_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#installationLocation -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#installationLocation">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Mon_Device_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#lastUpdate -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#lastUpdate">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Trig_Act_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#monitoringTime -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#monitoringTime">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Mon_Param_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#parameterName -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#parameterName">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Mon_Param_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#personnelID -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#personnelID">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Pers_Mgmt_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#personnelType -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#personnelType">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Pers_Mgmt_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#responseID -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#responseID">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Trig_Act_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#responseLevel -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#responseLevel">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Trig_Act_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#schedule -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#schedule">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Pers_Mgmt_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#startTime -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#startTime">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#T_Intvl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#status -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#status">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Trig_Act_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#taskAssigned -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#taskAssigned">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Pers_Mgmt_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#thresholdType -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#thresholdType">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Mon_Param_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#timeUnit -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#timeUnit">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#T_Intvl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/CFMO#unit -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#unit">
+        <rdfs:domain rdf:resource="http://www.example.org/cfmo#Mon_Param_2"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AI_Time-of-Flight_People_Counting_Sensor -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#AI_Time-of-Flight_People_Counting_Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Sensor_MachineVision"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Act_Assembly_PointGuide -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Act_Assembly_PointGuide">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Act_EmergencyEvacuation"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Act_CrowdGuide -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Act_CrowdGuide">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Act_CongestionResponse"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Act_EntranceExitAdjust -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Act_EntranceExitAdjust">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Act_CongestionResponse"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Act_Evacuation_Notificate -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Act_Evacuation_Notificate">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Act_EmergencyEvacuation"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Act_Evacuation_RoutePlan -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Act_Evacuation_RoutePlan">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Act_EmergencyEvacuation"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Act_FlowLimitate -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Act_FlowLimitate">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Act_CongestionResponse"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Act_InOutFlowResponse -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Act_InOutFlowResponse">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Act_RealTimeMonitoringAndResponse"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#HotSpot_Identification -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#HotSpot_Identification">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Anal_Regional_Distribution"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#LowDensity_AreaIdentification -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#LowDensity_AreaIdentification">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Anal_Regional_Distribution"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Machine_Vision_System -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Machine_Vision_System">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Sensor_MachineVision"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#RegionalFlow_Density -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#RegionalFlow_Density">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Anal_Regional_Distribution"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Act_AbnormalDensityResponse -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Act_AbnormalDensityResponse">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Act_RealTimeMonitoringAndResponse"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Act_CongestionResponse -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Act_CongestionResponse">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Trig_Act_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Act_CrowdControl -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Act_CrowdControl">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Trig_Act_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Act_CrowdRestrict -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Act_CrowdRestrict">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Act_CrowdControl"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Act_EmergencyEvacuation -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Act_EmergencyEvacuation">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Trig_Act_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Act_HealthAndSafetyResponse -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Act_HealthAndSafetyResponse">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Trig_Act_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Act_MedicalAssistant -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Act_MedicalAssistant">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Act_HealthAndSafetyResponse"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Act_PeakFlowResponse -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Act_PeakFlowResponse">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Act_RealTimeMonitoringAndResponse"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Act_PublicHealthControl -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Act_PublicHealthControl">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Act_HealthAndSafetyResponse"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Act_RealTimeMonitoringAndResponse -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Act_RealTimeMonitoringAndResponse">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Trig_Act_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Act_ReverseFlowGuide -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Act_ReverseFlowGuide">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Act_CrowdControl"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Act_SecurityDeploy -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Act_SecurityDeploy">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Act_CrowdControl"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Alert_AbnormalBehavior -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Alert_AbnormalBehavior">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Alert_Info_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Alert_Congest -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Alert_Congest">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Alert_Info_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Alert_CrowdAnomaly -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Alert_CrowdAnomaly">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Alert_Info_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Alert_EmergencyEvacuation -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Alert_EmergencyEvacuation">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Alert_Info_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Alert_Info_2 -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Alert_Info_2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#triggers"/>
+                <someValuesFrom rdf:resource="http://www.example.org/cfmo#Trig_Act_2"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Alert_PeakFlow -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Alert_PeakFlow">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Alert_Info_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Alert_SafetyDistance -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Alert_SafetyDistance">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Alert_Info_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Anal_CrowdDensity -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Anal_CrowdDensity">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Flow_Anal"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Anal_FlowDirection -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Anal_FlowDirection">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Flow_Anal"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Anal_PeakFlow -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Anal_PeakFlow">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Flow_Anal"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Anal_Predict -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Anal_Predict">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Flow_Anal"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Anal_Regional_Distribution -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Anal_Regional_Distribution">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Flow_Anal"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Anal_Trend -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Anal_Trend">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Flow_Anal"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#CFMO_Mon_Area -->
+
+    <Class rdf:about="http://www.example.org/cfmo#CFMO_Mon_Area">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#DailyFlowTrend -->
+
+    <Class rdf:about="http://www.example.org/cfmo#DailyFlowTrend">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Anal_Trend"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#DensityChangeTrend -->
+
+    <Class rdf:about="http://www.example.org/cfmo#DensityChangeTrend">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Anal_CrowdDensity"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#DensityRiskAssessment -->
+
+    <Class rdf:about="http://www.example.org/cfmo#DensityRiskAssessment">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Anal_CrowdDensity"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#DepthCamera -->
+
+    <Class rdf:about="http://www.example.org/cfmo#DepthCamera">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Sensor_MachineVision"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Flow_Anal -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Flow_Anal">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#FrequentPeakAlerting -->
+
+    <Class rdf:about="http://www.example.org/cfmo#FrequentPeakAlerting">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Anal_PeakFlow"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#HighDensityAnalysis -->
+
+    <Class rdf:about="http://www.example.org/cfmo#HighDensityAnalysis">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Anal_CrowdDensity"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#In_TransferHall -->
+
+    <Class rdf:about="http://www.example.org/cfmo#In_TransferHall">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#IndoorArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#IndoorArea -->
+
+    <Class rdf:about="http://www.example.org/cfmo#IndoorArea">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#CFMO_Mon_Area"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#InfraredCamera -->
+
+    <Class rdf:about="http://www.example.org/cfmo#InfraredCamera">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Sensor_MachineVision"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Intvl_EventTrig -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Intvl_EventTrig">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#T_Intvl"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Intvl_PeakTime -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Intvl_PeakTime">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#T_Intvl"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Intvl_RealTime -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Intvl_RealTime">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#T_Intvl"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Intvl_Scheduled -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Intvl_Scheduled">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#T_Intvl"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#LongTermPrediction -->
+
+    <Class rdf:about="http://www.example.org/cfmo#LongTermPrediction">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Anal_Predict"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#MainFlowDirection -->
+
+    <Class rdf:about="http://www.example.org/cfmo#MainFlowDirection">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Anal_FlowDirection"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#MaxCapacityAnalysis -->
+
+    <Class rdf:about="http://www.example.org/cfmo#MaxCapacityAnalysis">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Anal_PeakFlow"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#MidTermPrediction -->
+
+    <Class rdf:about="http://www.example.org/cfmo#MidTermPrediction">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Anal_Predict"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Mon_Device_2 -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Mon_Device_2">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Mon_Param_2 -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Mon_Param_2">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#MonthlyFlowTrend -->
+
+    <Class rdf:about="http://www.example.org/cfmo#MonthlyFlowTrend">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Anal_Trend"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#MultiDirectionDistribution -->
+
+    <Class rdf:about="http://www.example.org/cfmo#MultiDirectionDistribution">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Anal_FlowDirection"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#MultispectralCamera -->
+
+    <Class rdf:about="http://www.example.org/cfmo#MultispectralCamera">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Sensor_MachineVision"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#OpticalCamera -->
+
+    <Class rdf:about="http://www.example.org/cfmo#OpticalCamera">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Sensor_MachineVision"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Out_Square -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Out_Square">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#OutdoorArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#OutdoorArea -->
+
+    <Class rdf:about="http://www.example.org/cfmo#OutdoorArea">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#CFMO_Mon_Area"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#PanoramicCamera -->
+
+    <Class rdf:about="http://www.example.org/cfmo#PanoramicCamera">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Sensor_MachineVision"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Param_ExpectedFlow -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Param_ExpectedFlow">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Mon_Param_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Param_FlowDirection -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Param_FlowDirection">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Mon_Param_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Param_IndividualSpeed -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Param_IndividualSpeed">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Mon_Param_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Param_PopulationDensity -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Param_PopulationDensity">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Mon_Param_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Param_QueueCount -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Param_QueueCount">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Mon_Param_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Param_RealTimeFlow -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Param_RealTimeFlow">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Mon_Param_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Param_TotalPeople -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Param_TotalPeople">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Mon_Param_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#PeakTimeIdentification -->
+
+    <Class rdf:about="http://www.example.org/cfmo#PeakTimeIdentification">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Anal_PeakFlow"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Pers_Mgmt_2 -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Pers_Mgmt_2">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Actuation"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Persn_CleaningManagement -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Persn_CleaningManagement">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Pers_Mgmt_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Persn_EmergencyManagement -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Persn_EmergencyManagement">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Pers_Mgmt_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Persn_EmployeeManagement -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Persn_EmployeeManagement">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Pers_Mgmt_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Persn_SecurityManagement -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Persn_SecurityManagement">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Pers_Mgmt_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Persn_VisitorManagement -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Persn_VisitorManagement">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Pers_Mgmt_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Rail_ConferenceRoom -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Rail_ConferenceRoom">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#RailwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Rail_EquipRoom -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Rail_EquipRoom">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#RailwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Rail_Office -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Rail_Office">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#RailwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Rail_Platform -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Rail_Platform">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#RailwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Rail_Restroom -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Rail_Restroom">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#RailwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Rail_TicketHall -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Rail_TicketHall">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#RailwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Rail_WaitHall -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Rail_WaitHall">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#RailwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#RailwayArea -->
+
+    <Class rdf:about="http://www.example.org/cfmo#RailwayArea">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#CFMO_Mon_Area"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#ReverseFlowDetection -->
+
+    <Class rdf:about="http://www.example.org/cfmo#ReverseFlowDetection">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Anal_FlowDirection"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Sensor_MachineVision -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Sensor_MachineVision">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Mon_Device_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#ShortTermPrediction -->
+
+    <Class rdf:about="http://www.example.org/cfmo#ShortTermPrediction">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Anal_Predict"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Sub_ExitEntrance -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Sub_ExitEntrance">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#SubwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Sub_Platform -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Sub_Platform">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#SubwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Sub_StationHall -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Sub_StationHall">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#SubwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Sub_TransferTunnel -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Sub_TransferTunnel">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#SubwayArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#SubwayArea -->
+
+    <Class rdf:about="http://www.example.org/cfmo#SubwayArea">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#CFMO_Mon_Area"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#T_Intvl -->
+
+    <Class rdf:about="http://www.example.org/cfmo#T_Intvl">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#Trig_Act_2 -->
+
+    <Class rdf:about="http://www.example.org/cfmo#Trig_Act_2">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Actuation"/>
+    </Class>
+    
+
+
+    <!-- http://www.example.org/cfmo#WeeklyFlowTrend -->
+
+    <Class rdf:about="http://www.example.org/cfmo#WeeklyFlowTrend">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/cfmo#Anal_Trend"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Actuation -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Actuation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/ObservableProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/ObservableProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/System -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/System">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
