@@ -49,8 +49,8 @@
     <!-- http://www.co-ode.org/ontologies/ont.owl#assignedTo -->
 
     <ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#assignedTo">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Pers_Mgmt_3"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/IMO#IMO_Mon_Area"/>
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Pers_Mgmt_3"/>
+        <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#IMO_Mon_Area"/>
     </ObjectProperty>
     
 
@@ -58,8 +58,8 @@
     <!-- http://www.co-ode.org/ontologies/ont.owl#generates -->
 
     <ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#generates">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Mon_Device_3"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/IMO#Alert_Info_3"/>
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Device_3"/>
+        <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Alert_Info_3"/>
     </ObjectProperty>
     
 
@@ -67,112 +67,112 @@
     <!-- http://www.co-ode.org/ontologies/ont.owl#respondsTo -->
 
     <ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#respondsTo">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Pers_Mgmt_3"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/IMO#Alert_Info_3"/>
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Pers_Mgmt_3"/>
+        <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Alert_Info_3"/>
     </ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#against -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#against -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#against">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Trig_Act_3"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/IMO#Situation_Evt"/>
+    <ObjectProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#against">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Trig_Act_3"/>
+        <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Situation_Evt"/>
     </ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#associatedWith -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#associatedWith -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#associatedWith">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Alert_Info_3"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/IMO#Situation_Evt"/>
+    <ObjectProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#associatedWith">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Alert_Info_3"/>
+        <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Situation_Evt"/>
     </ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#detectedBy -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#detectedBy -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#detectedBy">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Situation_Evt"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/IMO#Mon_Device_3"/>
+    <ObjectProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#detectedBy">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Situation_Evt"/>
+        <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Device_3"/>
     </ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#detects -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#detects -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#detects">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Mon_Param_3"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/IMO#Situation_Evt"/>
+    <ObjectProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#detects">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Param_3"/>
+        <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Situation_Evt"/>
     </ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#executes -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#executes -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#executes">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Pers_Mgmt_3"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/IMO#Trig_Act_3"/>
+    <ObjectProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#executes">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Pers_Mgmt_3"/>
+        <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Trig_Act_3"/>
     </ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#handles -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#handles -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#handles">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Pers_Mgmt_3"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/IMO#Situation_Evt"/>
+    <ObjectProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#handles">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Pers_Mgmt_3"/>
+        <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Situation_Evt"/>
     </ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#installedIn -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#installedIn -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#installedIn">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Mon_Device_3"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/IMO#IMO_Mon_Area"/>
+    <ObjectProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#installedIn">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Device_3"/>
+        <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#IMO_Mon_Area"/>
     </ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#measures -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#measures -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#measures">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Mon_Device_3"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/IMO#Mon_Param_3"/>
+    <ObjectProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#measures">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Device_3"/>
+        <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Param_3"/>
     </ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#occurs -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#occurs -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#occurs">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#IMO_Mon_Area"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/IMO#Situation_Evt"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/IMO#Trig_Act_3"/>
+    <ObjectProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#occurs">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#IMO_Mon_Area"/>
+        <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Situation_Evt"/>
+        <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Trig_Act_3"/>
     </ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#occursDuring -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#occursDuring -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#occursDuring">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Alert_Info_3"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Situation_Evt"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Trig_Act_3"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/IMO#T_Intvl"/>
+    <ObjectProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#occursDuring">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Alert_Info_3"/>
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Situation_Evt"/>
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Trig_Act_3"/>
+        <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#T_Intvl"/>
     </ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#triggers -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#triggers -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#triggers">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Alert_Info_3"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Mon_Param_3"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/IMO#Alert_Info_3"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/IMO#Trig_Act_3"/>
+    <ObjectProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#triggers">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Alert_Info_3"/>
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Param_3"/>
+        <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Alert_Info_3"/>
+        <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Trig_Act_3"/>
     </ObjectProperty>
     
 
@@ -188,343 +188,343 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#DetectionMethod -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#DetectionMethod -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#DetectionMethod">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Situation_Evt"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#DetectionMethod">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Situation_Evt"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#EstimatedDuration -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#EstimatedDuration -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#EstimatedDuration">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Trig_Act_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#EstimatedDuration">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Trig_Act_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#EventDescription -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#EventDescription -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#EventDescription">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Situation_Evt"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#EventDescription">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Situation_Evt"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#EventID -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#EventID -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#EventID">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Situation_Evt"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#EventID">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Situation_Evt"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#EventType -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#EventType -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#EventType">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Situation_Evt"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#EventType">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Situation_Evt"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#InitiationTime -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#InitiationTime -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#InitiationTime">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Trig_Act_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#InitiationTime">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Trig_Act_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Location -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Location -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#Location">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Situation_Evt"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Location">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Situation_Evt"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#PlanType -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#PlanType -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#PlanType">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Trig_Act_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#PlanType">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Trig_Act_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#PriorityLevel -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#PriorityLevel -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#PriorityLevel">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Trig_Act_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#PriorityLevel">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Trig_Act_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#ResolutionStatus -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#ResolutionStatus -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#ResolutionStatus">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Situation_Evt"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#ResolutionStatus">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Situation_Evt"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#ResponseActions -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#ResponseActions -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#ResponseActions">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Trig_Act_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#ResponseActions">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Trig_Act_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#SeverityLevel -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#SeverityLevel -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#SeverityLevel">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Situation_Evt"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#SeverityLevel">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Situation_Evt"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#alertDescription -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#alertDescription -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#alertDescription">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Alert_Info_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#alertDescription">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Alert_Info_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#alertLevel -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#alertLevel -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#alertLevel">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Alert_Info_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#alertLevel">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Alert_Info_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#alertTime -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#alertTime -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#alertTime">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Alert_Info_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#alertTime">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Alert_Info_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#alertType -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#alertType -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#alertType">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Alert_Info_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#alertType">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Alert_Info_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#alertValue -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#alertValue -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#alertValue">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Alert_Info_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#alertValue">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Alert_Info_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#areaName -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#areaName -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#areaName">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#IMO_Mon_Area"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#areaName">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#IMO_Mon_Area"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#areaType -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#areaType -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#areaType">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#IMO_Mon_Area"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#areaType">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#IMO_Mon_Area"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#assignedRegion -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#assignedRegion -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#assignedRegion">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Pers_Mgmt_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#assignedRegion">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Pers_Mgmt_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#availabilityStatus -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#availabilityStatus -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#availabilityStatus">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Pers_Mgmt_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#availabilityStatus">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Pers_Mgmt_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#currentValue -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#currentValue -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#currentValue">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Mon_Param_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#currentValue">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Param_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#deviceID -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#deviceID -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#deviceID">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Mon_Device_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#deviceID">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Device_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#deviceName -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#deviceName -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#deviceName">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Mon_Device_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#deviceName">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Device_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#deviceStatus -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#deviceStatus -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#deviceStatus">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Mon_Device_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#deviceStatus">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Device_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#deviceType -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#deviceType -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#deviceType">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Mon_Device_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#deviceType">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Device_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#endTime -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#endTime -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#endTime">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#T_Intvl"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#endTime">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#T_Intvl"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#installationLocation -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#installationLocation -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#installationLocation">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Mon_Device_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#installationLocation">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Device_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#monitoringTime -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#monitoringTime -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#monitoringTime">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Mon_Param_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#monitoringTime">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Param_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#parameterName -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#parameterName -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#parameterName">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Mon_Param_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#parameterName">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Param_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#personnelID -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#personnelID -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#personnelID">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Pers_Mgmt_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#personnelID">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Pers_Mgmt_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#personnelType -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#personnelType -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#personnelType">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Pers_Mgmt_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#personnelType">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Pers_Mgmt_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#schedule -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#schedule -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#schedule">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Pers_Mgmt_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#schedule">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Pers_Mgmt_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#startTime -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#startTime -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#startTime">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#T_Intvl"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#startTime">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#T_Intvl"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#taskAssigned -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#taskAssigned -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#taskAssigned">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Pers_Mgmt_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#taskAssigned">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Pers_Mgmt_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#thresholdType -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#thresholdType -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#thresholdType">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Mon_Param_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#thresholdType">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Param_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#timeUnit -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#timeUnit -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#timeUnit">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#T_Intvl"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#timeUnit">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#T_Intvl"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#unit -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#unit -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/IMO#unit">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/IMO#Mon_Param_3"/>
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#unit">
+        <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Param_3"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
@@ -544,7 +544,7 @@
     <!-- http://www.co-ode.org/ontologies/ont.owl#Act_FightingMediate -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Act_FightingMediate">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Act_Behavior"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Act_Behavior"/>
     </Class>
     
 
@@ -552,7 +552,7 @@
     <!-- http://www.co-ode.org/ontologies/ont.owl#Act_LoiteringInquire -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Act_LoiteringInquire">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Act_Behavior"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Act_Behavior"/>
     </Class>
     
 
@@ -560,7 +560,7 @@
     <!-- http://www.co-ode.org/ontologies/ont.owl#Alert_Behavior -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Alert_Behavior">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Alert_Info_3"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Alert_Info_3"/>
     </Class>
     
 
@@ -568,7 +568,7 @@
     <!-- http://www.co-ode.org/ontologies/ont.owl#Alert_CrowdControl -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Alert_CrowdControl">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Alert_Info_3"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Alert_Info_3"/>
     </Class>
     
 
@@ -576,7 +576,7 @@
     <!-- http://www.co-ode.org/ontologies/ont.owl#Alert_Environment -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Alert_Environment">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Alert_Info_3"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Alert_Info_3"/>
     </Class>
     
 
@@ -584,7 +584,7 @@
     <!-- http://www.co-ode.org/ontologies/ont.owl#Alert_HealthAndFirstAid -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Alert_HealthAndFirstAid">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Alert_Info_3"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Alert_Info_3"/>
     </Class>
     
 
@@ -592,7 +592,7 @@
     <!-- http://www.co-ode.org/ontologies/ont.owl#Alert_Security -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Alert_Security">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Alert_Info_3"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Alert_Info_3"/>
     </Class>
     
 
@@ -608,7 +608,7 @@
     <!-- http://www.co-ode.org/ontologies/ont.owl#Evt_Fire -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Evt_Fire">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Evt_NaturalHazard"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_NaturalHazard"/>
     </Class>
     
 
@@ -616,7 +616,7 @@
     <!-- http://www.co-ode.org/ontologies/ont.owl#In_TransferHall -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#In_TransferHall">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#IndoorArea"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#IndoorArea"/>
     </Class>
     
 
@@ -648,7 +648,7 @@
     <!-- http://www.co-ode.org/ontologies/ont.owl#Out_Square -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Out_Square">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#OutdoorArea"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#OutdoorArea"/>
     </Class>
     
 
@@ -672,7 +672,7 @@
     <!-- http://www.co-ode.org/ontologies/ont.owl#Param_CrowdDensity -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Param_CrowdDensity">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Param_CrowdControlDetect"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Param_CrowdControlDetect"/>
     </Class>
     
 
@@ -680,7 +680,7 @@
     <!-- http://www.co-ode.org/ontologies/ont.owl#Param_EarthquakeDetection -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Param_EarthquakeDetection">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Param_EnvironmentalDetect"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Param_EnvironmentalDetect"/>
     </Class>
     
 
@@ -688,7 +688,7 @@
     <!-- http://www.co-ode.org/ontologies/ont.owl#Persn_EventCoordinate -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Persn_EventCoordinate">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Persn_CrowdControl"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_CrowdControl"/>
     </Class>
     
 
@@ -696,7 +696,7 @@
     <!-- http://www.co-ode.org/ontologies/ont.owl#Persn_QueueManage -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Persn_QueueManage">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Persn_CrowdControl"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_CrowdControl"/>
     </Class>
     
 
@@ -704,755 +704,755 @@
     <!-- http://www.co-ode.org/ontologies/ont.owl#Sensor_MachineVision -->
 
     <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sensor_MachineVision">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Mon_Device_3"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Device_3"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Act_Behavior -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Act_Behavior -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Act_Behavior">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Trig_Act_3"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Act_Behavior">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Trig_Act_3"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Act_ClimbingPrevent -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Act_ClimbingPrevent -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Act_ClimbingPrevent">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Act_Behavior"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Act_ClimbingPrevent">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Act_Behavior"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Act_CrowdControl -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Act_CrowdControl -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Act_CrowdControl">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Trig_Act_3"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Act_CrowdControl">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Trig_Act_3"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Act_CrowdDisperse -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Act_CrowdDisperse -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Act_CrowdDisperse">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Act_CrowdControl"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Act_CrowdDisperse">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Act_CrowdControl"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Act_DirectionalFlow -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Act_DirectionalFlow -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Act_DirectionalFlow">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Act_CrowdControl"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Act_DirectionalFlow">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Act_CrowdControl"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Act_EarthquakeEvacuate -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Act_EarthquakeEvacuate -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Act_EarthquakeEvacuate">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Act_NaturalHazard"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Act_EarthquakeEvacuate">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Act_NaturalHazard"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Act_EntranceRestrict -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Act_EntranceRestrict -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Act_EntranceRestrict">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Act_CrowdControl"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Act_EntranceRestrict">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Act_CrowdControl"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Act_EvacuationRouteAdjust -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Act_EvacuationRouteAdjust -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Act_EvacuationRouteAdjust">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Act_CrowdControl"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Act_EvacuationRouteAdjust">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Act_CrowdControl"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Act_FallingAssist -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Act_FallingAssist -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Act_FallingAssist">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Act_Behavior"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Act_FallingAssist">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Act_Behavior"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Act_FireEvacuate -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Act_FireEvacuate -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Act_FireEvacuate">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Act_NaturalHazard"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Act_FireEvacuate">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Act_NaturalHazard"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Act_FloodManage -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Act_FloodManage -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Act_FloodManage">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Act_NaturalHazard"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Act_FloodManage">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Act_NaturalHazard"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Act_IntrusionContain -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Act_IntrusionContain -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Act_IntrusionContain">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Act_Security"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Act_IntrusionContain">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Act_Security"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Act_NaturalHazard -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Act_NaturalHazard -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Act_NaturalHazard">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Trig_Act_3"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Act_NaturalHazard">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Trig_Act_3"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Act_QueueManage -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Act_QueueManage -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Act_QueueManage">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Act_CrowdControl"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Act_QueueManage">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Act_CrowdControl"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Act_RunningIntervent -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Act_RunningIntervent -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Act_RunningIntervent">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Act_Behavior"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Act_RunningIntervent">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Act_Behavior"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Act_Security -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Act_Security -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Act_Security">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Trig_Act_3"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Act_Security">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Trig_Act_3"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Act_SecurityAlertBroadcast -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Act_SecurityAlertBroadcast -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Act_SecurityAlertBroadcast">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Act_Security"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Act_SecurityAlertBroadcast">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Act_Security"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Act_SuspObj_Isolate -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Act_SuspObj_Isolate -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Act_SuspObj_Isolate">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Act_Security"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Act_SuspObj_Isolate">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Act_Security"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Act_WeaponDetect -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Act_WeaponDetect -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Act_WeaponDetect">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Act_Security"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Act_WeaponDetect">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Act_Security"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Alert_Info_3 -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Alert_Info_3 -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Alert_Info_3">
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Alert_Info_3">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/IMO#triggers"/>
-                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/IMO#Trig_Act_3"/>
+                <onProperty rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#triggers"/>
+                <allValuesFrom rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Trig_Act_3"/>
             </Restriction>
         </rdfs:subClassOf>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Evt_AbnormalBehavior -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Evt_AbnormalBehavior -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Evt_AbnormalBehavior">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Evt_Behavior"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_AbnormalBehavior">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Behavior"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Evt_Behavior -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Behavior -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Evt_Behavior">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Situation_Evt"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Behavior">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Situation_Evt"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Evt_Climbing -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Climbing -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Evt_Climbing">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Evt_Behavior"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Climbing">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Behavior"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Evt_CrowdControl -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Evt_CrowdControl -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Evt_CrowdControl">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Situation_Evt"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_CrowdControl">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Situation_Evt"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Evt_DirectionalViolation -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Evt_DirectionalViolation -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Evt_DirectionalViolation">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Evt_CrowdControl"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_DirectionalViolation">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_CrowdControl"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Evt_Falling -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Falling -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Evt_Falling">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Evt_Behavior"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Falling">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Behavior"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Evt_Fighting -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Fighting -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Evt_Fighting">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Evt_Behavior"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Fighting">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Behavior"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Evt_Flood -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Flood -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Evt_Flood">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Evt_NaturalHazard"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Flood">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_NaturalHazard"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Evt_HighTraffic -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Evt_HighTraffic -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Evt_HighTraffic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Evt_CrowdControl"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_HighTraffic">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_CrowdControl"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Evt_Intrusion -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Intrusion -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Evt_Intrusion">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Evt_Security"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Intrusion">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Security"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Evt_Loitering -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Loitering -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Evt_Loitering">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Evt_Behavior"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Loitering">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Behavior"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Evt_NaturalHazard -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Evt_NaturalHazard -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Evt_NaturalHazard">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Situation_Evt"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_NaturalHazard">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Situation_Evt"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Evt_Overcrowding -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Overcrowding -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Evt_Overcrowding">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Evt_CrowdControl"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Overcrowding">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_CrowdControl"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Evt_Running -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Running -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Evt_Running">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Evt_Behavior"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Running">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Behavior"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Evt_Security -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Security -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Evt_Security">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Situation_Evt"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Security">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Situation_Evt"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Evt_StampedeRisk -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Evt_StampedeRisk -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Evt_StampedeRisk">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Evt_CrowdControl"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_StampedeRisk">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_CrowdControl"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Evt_SuspiciousPackage -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Evt_SuspiciousPackage -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Evt_SuspiciousPackage">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Evt_Security"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_SuspiciousPackage">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Security"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Evt_UnauthorizedAccess -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Evt_UnauthorizedAccess -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Evt_UnauthorizedAccess">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Evt_Security"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_UnauthorizedAccess">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Security"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Evt_WeaponDetection -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Evt_WeaponDetection -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Evt_WeaponDetection">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Evt_Security"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_WeaponDetection">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Evt_Security"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#IMO_Mon_Area -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#IMO_Mon_Area -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#IMO_Mon_Area">
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#IMO_Mon_Area">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#IndoorArea -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#IndoorArea -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#IndoorArea">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#IMO_Mon_Area"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#IndoorArea">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#IMO_Mon_Area"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Intvl_EventTrig -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Intvl_EventTrig -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Intvl_EventTrig">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#T_Intvl"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Intvl_EventTrig">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#T_Intvl"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Intvl_PeakTime -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Intvl_PeakTime -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Intvl_PeakTime">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#T_Intvl"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Intvl_PeakTime">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#T_Intvl"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Intvl_RealTime -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Intvl_RealTime -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Intvl_RealTime">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#T_Intvl"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Intvl_RealTime">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#T_Intvl"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Intvl_Scheduled -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Intvl_Scheduled -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Intvl_Scheduled">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#T_Intvl"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Intvl_Scheduled">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#T_Intvl"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Mon_Device_3 -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Device_3 -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Mon_Device_3">
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Device_3">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Mon_Param_3 -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Param_3 -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Mon_Param_3">
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Param_3">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/IMO#triggers"/>
-                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/IMO#Alert_Info_3"/>
+                <onProperty rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#triggers"/>
+                <allValuesFrom rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Alert_Info_3"/>
             </Restriction>
         </rdfs:subClassOf>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#OutdoorArea -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#OutdoorArea -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#OutdoorArea">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#IMO_Mon_Area"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#OutdoorArea">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#IMO_Mon_Area"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Param_CrowdControlDetect -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Param_CrowdControlDetect -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Param_CrowdControlDetect">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Mon_Param_3"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Param_CrowdControlDetect">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Param_3"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Param_EnvironmentalDetect -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Param_EnvironmentalDetect -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Param_EnvironmentalDetect">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Mon_Param_3"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Param_EnvironmentalDetect">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Param_3"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Param_FacialRecognition -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Param_FacialRecognition -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Param_FacialRecognition">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Param_SecurityDetect"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Param_FacialRecognition">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Param_SecurityDetect"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Param_FireDetection -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Param_FireDetection -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Param_FireDetection">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Param_EnvironmentalDetect"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Param_FireDetection">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Param_EnvironmentalDetect"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Param_FloodDetection -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Param_FloodDetection -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Param_FloodDetection">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Param_EnvironmentalDetect"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Param_FloodDetection">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Param_EnvironmentalDetect"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Param_FlowRate -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Param_FlowRate -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Param_FlowRate">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Param_CrowdControlDetect"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Param_FlowRate">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Param_CrowdControlDetect"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Param_Intrusion -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Param_Intrusion -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Param_Intrusion">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Param_SecurityDetect"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Param_Intrusion">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Param_SecurityDetect"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Param_QueueLength -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Param_QueueLength -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Param_QueueLength">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Param_CrowdControlDetect"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Param_QueueLength">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Param_CrowdControlDetect"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Param_SecurityDetect -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Param_SecurityDetect -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Param_SecurityDetect">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Mon_Param_3"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Param_SecurityDetect">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Mon_Param_3"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Param_SuspiciousObject -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Param_SuspiciousObject -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Param_SuspiciousObject">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Param_SecurityDetect"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Param_SuspiciousObject">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Param_SecurityDetect"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Pers_Mgmt_3 -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Pers_Mgmt_3 -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Pers_Mgmt_3">
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Pers_Mgmt_3">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Actuation"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Persn_AccessControl -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Persn_AccessControl -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Persn_AccessControl">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Persn_Security"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_AccessControl">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_Security"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Persn_BehaviorMonitoring -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Persn_BehaviorMonitoring -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Persn_BehaviorMonitoring">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Pers_Mgmt_3"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_BehaviorMonitoring">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Pers_Mgmt_3"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Persn_ConflictMediate -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Persn_ConflictMediate -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Persn_ConflictMediate">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Persn_BehaviorMonitoring"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_ConflictMediate">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_BehaviorMonitoring"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Persn_CrowdControl -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Persn_CrowdControl -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Persn_CrowdControl">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Pers_Mgmt_3"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_CrowdControl">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Pers_Mgmt_3"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Persn_CrowdGuide -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Persn_CrowdGuide -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Persn_CrowdGuide">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Persn_CrowdControl"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_CrowdGuide">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_CrowdControl"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Persn_EarthquakeEvacuate -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Persn_EarthquakeEvacuate -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Persn_EarthquakeEvacuate">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Persn_EmergencyResponse"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_EarthquakeEvacuate">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_EmergencyResponse"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Persn_EmergencyResponse -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Persn_EmergencyResponse -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Persn_EmergencyResponse">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Pers_Mgmt_3"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_EmergencyResponse">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Pers_Mgmt_3"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Persn_EventCoordinate -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Persn_EventCoordinate -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Persn_EventCoordinate">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Persn_BehaviorMonitoring"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_EventCoordinate">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_BehaviorMonitoring"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Persn_Firefight -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Persn_Firefight -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Persn_Firefight">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Persn_EmergencyResponse"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_Firefight">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_EmergencyResponse"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Persn_FirstAid -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Persn_FirstAid -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Persn_FirstAid">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Persn_EmergencyResponse"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_FirstAid">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_EmergencyResponse"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Persn_FloodResponse -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Persn_FloodResponse -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Persn_FloodResponse">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Persn_EmergencyResponse"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_FloodResponse">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_EmergencyResponse"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Persn_LoiteringMonitor -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Persn_LoiteringMonitor -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Persn_LoiteringMonitor">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Persn_BehaviorMonitoring"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_LoiteringMonitor">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_BehaviorMonitoring"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Persn_Patrol -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Persn_Patrol -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Persn_Patrol">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Persn_Security"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_Patrol">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_Security"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Persn_QueueManage -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Persn_QueueManage -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Persn_QueueManage">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Persn_BehaviorMonitoring"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_QueueManage">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_BehaviorMonitoring"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Persn_Rescue -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Persn_Rescue -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Persn_Rescue">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Persn_EmergencyResponse"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_Rescue">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_EmergencyResponse"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Persn_Security -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Persn_Security -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Persn_Security">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Pers_Mgmt_3"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_Security">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Pers_Mgmt_3"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Persn_Surveillance -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Persn_Surveillance -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Persn_Surveillance">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#Persn_Security"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_Surveillance">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#Persn_Security"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Rail_ConferenceRoom -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Rail_ConferenceRoom -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Rail_ConferenceRoom">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#RailwayArea"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Rail_ConferenceRoom">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#RailwayArea"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Rail_EquipRoom -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Rail_EquipRoom -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Rail_EquipRoom">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#RailwayArea"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Rail_EquipRoom">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#RailwayArea"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Rail_Office -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Rail_Office -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Rail_Office">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#RailwayArea"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Rail_Office">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#RailwayArea"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Rail_Platform -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Rail_Platform -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Rail_Platform">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#RailwayArea"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Rail_Platform">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#RailwayArea"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Rail_Restroom -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Rail_Restroom -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Rail_Restroom">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#RailwayArea"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Rail_Restroom">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#RailwayArea"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Rail_TicketHall -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Rail_TicketHall -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Rail_TicketHall">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#RailwayArea"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Rail_TicketHall">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#RailwayArea"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Rail_WaitHall -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Rail_WaitHall -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Rail_WaitHall">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#RailwayArea"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Rail_WaitHall">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#RailwayArea"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#RailwayArea -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#RailwayArea -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#RailwayArea">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#IMO_Mon_Area"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#RailwayArea">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#IMO_Mon_Area"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Situation_Evt -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Situation_Evt -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Situation_Evt">
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Situation_Evt">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Sub_Platform -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Sub_Platform -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Sub_Platform">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#SubwayArea"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Sub_Platform">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#SubwayArea"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Sub_StationHall -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Sub_StationHall -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Sub_StationHall">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#SubwayArea"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Sub_StationHall">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#SubwayArea"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Sub_TransferTunnel -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Sub_TransferTunnel -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Sub_TransferTunnel">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#SubwayArea"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Sub_TransferTunnel">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#SubwayArea"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#SubwayArea -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#SubwayArea -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#SubwayArea">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#IMO_Mon_Area"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#SubwayArea">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#IMO_Mon_Area"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#T_Intvl -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#T_Intvl -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#T_Intvl">
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#T_Intvl">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Trig_Act_3 -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Trig_Act_3 -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Trig_Act_3">
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Trig_Act_3">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Actuation"/>
     </Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/IMO#Sub_Exit/Entrance -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/IMO#Sub_Exit/Entrance -->
 
-    <Class rdf:about="http://www.semanticweb.org/ontologies/IMO#Sub_Exit/Entrance">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/IMO#SubwayArea"/>
+    <Class rdf:about="http://w3id.org/SCIMOnto-ontologies/IMO#Sub_Exit/Entrance">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/SCIMOnto-ontologies/IMO#SubwayArea"/>
     </Class>
     
 
