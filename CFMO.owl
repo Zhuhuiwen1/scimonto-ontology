@@ -41,63 +41,63 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#assignedTo -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#assignedTo -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#assignedTo">
+    <ObjectProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#assignedTo">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Pers_Mgmt_2"/>
         <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#CFMO_Mon_Area"/>
     </ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#basedOn -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#basedOn -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#basedOn">
+    <ObjectProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#basedOn">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Flow_Anal"/>
         <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Mon_Param_2"/>
     </ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#executes -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#executes -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#executes">
+    <ObjectProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#executes">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Pers_Mgmt_2"/>
         <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Trig_Act_2"/>
     </ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#generates -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#generates -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#generates">
+    <ObjectProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#generates">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Mon_Device_2"/>
         <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Alert_Info_2"/>
     </ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#installedIn -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#installedIn -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#installedIn">
+    <ObjectProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#installedIn">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Mon_Device_2"/>
         <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#CFMO_Mon_Area"/>
     </ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#measures -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#measures -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#measures">
+    <ObjectProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#measures">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Mon_Device_2"/>
         <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Mon_Param_2"/>
     </ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#occursDuring -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#occursDuring -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#occursDuring">
+    <ObjectProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#occursDuring">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Alert_Info_2"/>
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Flow_Anal"/>
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Trig_Act_2"/>
@@ -106,18 +106,18 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#respondsTo -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#respondsTo -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#respondsTo">
+    <ObjectProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#respondsTo">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Pers_Mgmt_2"/>
         <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Alert_Info_2"/>
     </ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#utilizes -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#utilizes -->
 
-    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#utilizes">
+    <ObjectProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#utilizes">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Flow_Anal"/>
         <rdfs:range rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Mon_Device_2"/>
     </ObjectProperty>
@@ -135,36 +135,36 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#alertDescription -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#alertDescription -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#alertDescription">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#alertDescription">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Alert_Info_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#alertLevel -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#alertLevel -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#alertLevel">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#alertLevel">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Alert_Info_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#alertTime -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#alertTime -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#alertTime">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#alertTime">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Alert_Info_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#alertType -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#alertType -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#alertType">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#alertType">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Alert_Info_2"/>
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Trig_Act_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -172,288 +172,288 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#alertValue -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#alertValue -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#alertValue">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#alertValue">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Alert_Info_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#areaName -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#areaName -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#areaName">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#areaName">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#CFMO_Mon_Area"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#areaType -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#areaType -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#areaType">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#areaType">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#CFMO_Mon_Area"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#assignedRegion -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#assignedRegion -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#assignedRegion">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#assignedRegion">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Pers_Mgmt_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#availabilityStatus -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#availabilityStatus -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#availabilityStatus">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#availabilityStatus">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Pers_Mgmt_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#currentValue -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#currentValue -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#currentValue">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#currentValue">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Mon_Param_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#deviceID -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#deviceID -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#deviceID">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#deviceID">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Mon_Device_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#deviceName -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#deviceName -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#deviceName">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#deviceName">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Mon_Device_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#deviceStatus -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#deviceStatus -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#deviceStatus">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#deviceStatus">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Mon_Device_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#deviceType -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#deviceType -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#deviceType">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#deviceType">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Mon_Device_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#endTime -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#endTime -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#endTime">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#endTime">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#T_Intvl"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#flowDescription -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#flowDescription -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#flowDescription">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#flowDescription">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Flow_Anal"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#flowLevel -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#flowLevel -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#flowLevel">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#flowLevel">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Flow_Anal"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#flowTime -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#flowTime -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#flowTime">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#flowTime">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Flow_Anal"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#flowType -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#flowType -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#flowType">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#flowType">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Flow_Anal"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#flowValue -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#flowValue -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#flowValue">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#flowValue">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Flow_Anal"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#initiatedTime -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#initiatedTime -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#initiatedTime">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#initiatedTime">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Trig_Act_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#installationLocation -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#installationLocation -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#installationLocation">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#installationLocation">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Mon_Device_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#lastUpdate -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#lastUpdate -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#lastUpdate">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#lastUpdate">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Trig_Act_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#monitoringTime -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#monitoringTime -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#monitoringTime">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#monitoringTime">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Mon_Param_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#parameterName -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#parameterName -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#parameterName">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#parameterName">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Mon_Param_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#personnelID -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#personnelID -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#personnelID">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#personnelID">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Pers_Mgmt_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#personnelType -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#personnelType -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#personnelType">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#personnelType">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Pers_Mgmt_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#responseID -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#responseID -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#responseID">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#responseID">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Trig_Act_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#responseLevel -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#responseLevel -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#responseLevel">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#responseLevel">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Trig_Act_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#schedule -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#schedule -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#schedule">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#schedule">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Pers_Mgmt_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#startTime -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#startTime -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#startTime">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#startTime">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#T_Intvl"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#status -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#status -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#status">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#status">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Trig_Act_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#taskAssigned -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#taskAssigned -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#taskAssigned">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#taskAssigned">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Pers_Mgmt_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#thresholdType -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#thresholdType -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#thresholdType">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#thresholdType">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Mon_Param_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#timeUnit -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#timeUnit -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#timeUnit">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#timeUnit">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#T_Intvl"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/CFMO#unit -->
+    <!-- http://w3id.org/SCIMOnto-ontologies/CFMO#unit -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/CFMO#unit">
+    <DatatypeProperty rdf:about="http://w3id.org/SCIMOnto-ontologies/CFMO#unit">
         <rdfs:domain rdf:resource="http://w3id.org/SCIMOnto-ontologies/cfmo#Mon_Param_2"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </DatatypeProperty>
